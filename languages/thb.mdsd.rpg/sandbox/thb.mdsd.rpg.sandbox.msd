@@ -10,6 +10,7 @@
   </facets>
   <sourcePath />
   <languageVersions>
+    <language slang="l:81baee78-8ceb-49aa-8e77-ea7539ef3920:Entities" version="0" />
     <language slang="l:ceab5195-25ea-4f22-9b92-103b95ca8c0c:jetbrains.mps.lang.core" version="2" />
     <language slang="l:5e0b4086-7b52-4062-a4f0-9535e5261b27:thb.mdsd.rpg" version="0" />
   </languageVersions>

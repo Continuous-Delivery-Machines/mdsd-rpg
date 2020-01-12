@@ -7,8 +7,10 @@
   <imports />
   <registry>
     <language id="5e0b4086-7b52-4062-a4f0-9535e5261b27" name="thb.mdsd.rpg">
+      <concept id="321273711732206777" name="thb.mdsd.rpg.structure.Resource" flags="ng" index="j3kw4" />
       <concept id="4969319025426859427" name="thb.mdsd.rpg.structure.Attribute" flags="ng" index="1MRxjK" />
-      <concept id="4969319025426859424" name="thb.mdsd.rpg.structure.Character" flags="ng" index="1MRxjN">
+      <concept id="4969319025426859424" name="thb.mdsd.rpg.structure.Unit" flags="ng" index="1MRxjN">
+        <child id="321273711732206811" name="resources" index="j3kxA" />
         <child id="4969319025426859430" name="attributes" index="1MRxjP" />
       </concept>
     </language>
@@ -18,25 +20,19 @@
       </concept>
     </language>
   </registry>
-  <node concept="1MRxjN" id="4jQ$lcQaj92">
-    <property role="TrG5h" value="DnDario" />
-    <node concept="1MRxjK" id="4jQ$lcQautk" role="1MRxjP">
-      <property role="TrG5h" value="Strength" />
+  <node concept="1MRxjN" id="20y2UGWM7En">
+    <property role="TrG5h" value="PlayerChar" />
+    <node concept="1MRxjK" id="20y2UGWM7Eo" role="1MRxjP">
+      <property role="TrG5h" value="Str" />
     </node>
-    <node concept="1MRxjK" id="4jQ$lcQautm" role="1MRxjP">
-      <property role="TrG5h" value="Dexterity" />
+    <node concept="1MRxjK" id="20y2UGWM7Eq" role="1MRxjP">
+      <property role="TrG5h" value="Dex" />
     </node>
-    <node concept="1MRxjK" id="4jQ$lcQautp" role="1MRxjP">
-      <property role="TrG5h" value="Constitution" />
+    <node concept="1MRxjK" id="20y2UGWM7Et" role="1MRxjP">
+      <property role="TrG5h" value="Con" />
     </node>
-    <node concept="1MRxjK" id="4jQ$lcQautt" role="1MRxjP">
-      <property role="TrG5h" value="Intelligence" />
-    </node>
-    <node concept="1MRxjK" id="4jQ$lcQauty" role="1MRxjP">
-      <property role="TrG5h" value="Wisdom" />
-    </node>
-    <node concept="1MRxjK" id="4jQ$lcQautC" role="1MRxjP">
-      <property role="TrG5h" value="Charisma" />
+    <node concept="j3kw4" id="20y2UGWM7Ex" role="j3kxA">
+      <property role="TrG5h" value="spells_per_day_level_00" />
     </node>
   </node>
 </model>

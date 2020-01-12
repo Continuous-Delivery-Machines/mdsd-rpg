@@ -57,10 +57,10 @@
     </node>
   </node>
   <node concept="24kQdi" id="4jQ$lcQaj8h">
-    <ref role="1XX52x" to="l145:4jQ$lcQa8mw" resolve="Character" />
+    <ref role="1XX52x" to="l145:4jQ$lcQa8mw" resolve="Unit" />
     <node concept="3EZMnI" id="4jQ$lcQaj8j" role="2wV5jI">
       <node concept="3F0ifn" id="4jQ$lcQaj8q" role="3EZMnx">
-        <property role="3F0ifm" value="char" />
+        <property role="3F0ifm" value="unit" />
       </node>
       <node concept="3F0A7n" id="4jQ$lcQaj8w" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
@@ -75,7 +75,23 @@
           <property role="VOm3f" value="true" />
         </node>
       </node>
+      <node concept="3F2HdR" id="hPpbOnu2ND" role="3EZMnx">
+        <ref role="1NtTu8" to="l145:hPpbOnu2Nr" resolve="resources" />
+        <node concept="l2Vlx" id="hPpbOnu2NF" role="2czzBx" />
+      </node>
       <node concept="l2Vlx" id="4jQ$lcQaj8m" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="hPpbOnu2N4">
+    <ref role="1XX52x" to="l145:hPpbOnu2MT" resolve="Resource" />
+    <node concept="3EZMnI" id="hPpbOnu2N6" role="2wV5jI">
+      <node concept="3F0ifn" id="hPpbOnu2Nd" role="3EZMnx">
+        <property role="3F0ifm" value="resource" />
+      </node>
+      <node concept="3F0A7n" id="hPpbOnu2Nn" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="l2Vlx" id="hPpbOnu2N9" role="2iSdaV" />
     </node>
   </node>
 </model>

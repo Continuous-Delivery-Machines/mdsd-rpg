@@ -38,7 +38,7 @@
   </registry>
   <node concept="1TIwiD" id="4jQ$lcQa8mw">
     <property role="EcuMT" value="4969319025426859424" />
-    <property role="TrG5h" value="Character" />
+    <property role="TrG5h" value="Unit" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="4jQ$lcQa8mx" role="PzmwI">
@@ -51,12 +51,27 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="4jQ$lcQa8mz" resolve="Attribute" />
     </node>
+    <node concept="1TJgyj" id="hPpbOnu2Nr" role="1TKVEi">
+      <property role="IQ2ns" value="321273711732206811" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="resources" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="hPpbOnu2MT" resolve="Resource" />
+    </node>
   </node>
   <node concept="1TIwiD" id="4jQ$lcQa8mz">
     <property role="EcuMT" value="4969319025426859427" />
     <property role="TrG5h" value="Attribute" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="4jQ$lcQa8m$" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="hPpbOnu2MT">
+    <property role="EcuMT" value="321273711732206777" />
+    <property role="TrG5h" value="Resource" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="hPpbOnu4Vk" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>

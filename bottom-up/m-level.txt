@@ -1,0 +1,81 @@
+M 0
+
+char	Palaberpala
+	wis	12
+	str	16
+	con 	13
+	AC	22
+attacks
+	attack MeleeSword
+		Range	1 - 1
+		Dmg	2d6+3
+	attack Smite
+		Range	3 - 10
+		Dmg 	42
+
+char	WizzyWizard
+	wis	18
+	str	08
+	con 	10
+	AC	12
+attacks
+	attack FireBall
+		Range	1 - 10
+		Dmg	2d6+4
+
+--------------
+
+M 1
+
+entity	DnDPlayerCharacter
+	attribute	Wis
+	attribute	Str
+	plain_attribute	Con
+	calculated_attribute	AC	calc	10 + Con/2 + Armor_AC + Shield_AC + Misc_AC
+attacks
+	attribute	Range
+	calculus	RandomGenerator + Attribute_Mod
+	
+
+
+
+
+
+enetity	D3/PlayerChar_mana
+	attribute	Strength
+	attribute	Armor
+	Attribute	CritChance
+	Attribute	CritModifier
+	plain_att	passive_mana_mult
+	plain_att	equip_mana_mult
+	Attribute	maxMana	=	(Base_Mana + Equip_Mana) * (passive_mana_mult + equip_mana_mul + 1)
+attacks
+	calculus	
+
+
+enetity	D3/PlayerChar_rage
+	attribute	Strength
+	attribute	Armor
+	Attribute	CritChance
+	Attribute	CritModifier
+	plain_att	rage_mult
+	Attribute	Rage	=	(100) * (rage_mult +  + 1)
+attacks
+	calculus		
+
+
+------
+
+M 2
+
+Concepte
+
+
+
+
+
+
+Wpn_Base * (1-1,05) * Str * Crit?
+
+
+Wpn_Base * (1-1,05) * Dex * RangedCrit?

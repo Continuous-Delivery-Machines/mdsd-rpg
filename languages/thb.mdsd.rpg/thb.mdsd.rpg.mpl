@@ -24,9 +24,6 @@
         </facet>
       </facets>
       <external-templates />
-      <dependencies>
-        <dependency reexport="false">990507d3-3527-4c54-bfe9-0ca3c9c6247a(com.dslfoundry.plaintextgen)</dependency>
-      </dependencies>
       <languageVersions>
         <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="9" />
         <language slang="l:fd392034-7849-419d-9071-12563d152375:jetbrains.mps.baseLanguage.closures" version="0" />
@@ -51,7 +48,6 @@
         <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
         <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
         <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
-        <module reference="990507d3-3527-4c54-bfe9-0ca3c9c6247a(com.dslfoundry.plaintextgen)" version="0" />
         <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
         <module reference="9e98f4e2-decf-4e97-bf80-9109e8b759aa(jetbrains.mps.lang.feedback.context)" version="0" />
         <module reference="5e0b4086-7b52-4062-a4f0-9535e5261b27(thb.mdsd.rpg)" version="0" />
@@ -106,8 +102,6 @@
     <module reference="9e98f4e2-decf-4e97-bf80-9109e8b759aa(jetbrains.mps.lang.feedback.context)" version="0" />
     <module reference="5e0b4086-7b52-4062-a4f0-9535e5261b27(thb.mdsd.rpg)" version="0" />
   </dependencyVersions>
-  <extendedLanguages>
-    <extendedLanguage>81baee78-8ceb-49aa-8e77-ea7539ef3920(Entities)</extendedLanguage>
-  </extendedLanguages>
+  <extendedLanguages />
 </language>
 

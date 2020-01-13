@@ -91,11 +91,6 @@
       <property role="TrG5h" value="value" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
-    <node concept="1TJgyi" id="20xz337v83v" role="1TKVEl">
-      <property role="IQ2nx" value="2315285824578289887" />
-      <property role="TrG5h" value="min_value" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
-    </node>
     <node concept="1TJgyi" id="20xz337v83y" role="1TKVEl">
       <property role="IQ2nx" value="2315285824578289890" />
       <property role="TrG5h" value="max_value" />

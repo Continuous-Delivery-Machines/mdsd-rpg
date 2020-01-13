@@ -142,9 +142,6 @@
       <node concept="3F0ifn" id="20xz337v83E" role="3EZMnx">
         <property role="3F0ifm" value="range" />
       </node>
-      <node concept="3F0A7n" id="20xz337v83O" role="3EZMnx">
-        <ref role="1NtTu8" to="l145:20xz337v83v" resolve="min_value" />
-      </node>
       <node concept="3F0A7n" id="20xz337v840" role="3EZMnx">
         <ref role="1NtTu8" to="l145:20xz337v83y" resolve="max_value" />
       </node>

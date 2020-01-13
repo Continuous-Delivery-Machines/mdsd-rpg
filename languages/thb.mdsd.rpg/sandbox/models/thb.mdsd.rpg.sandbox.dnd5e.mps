@@ -9,7 +9,6 @@
     <language id="5e0b4086-7b52-4062-a4f0-9535e5261b27" name="thb.mdsd.rpg">
       <concept id="321273711732206777" name="thb.mdsd.rpg.structure.Resource" flags="ng" index="j3kw4">
         <property id="2315285824578289890" name="max_value" index="3BngNi" />
-        <property id="2315285824578289887" name="min_value" index="3BngNJ" />
       </concept>
       <concept id="2315285824578454175" name="thb.mdsd.rpg.structure.Action" flags="ng" index="3BnCUJ">
         <child id="2315285824578468558" name="costs" index="3BnFrY" />
@@ -51,48 +50,35 @@
     <node concept="1MRxjK" id="20xz337vXYl" role="1MRxjP">
       <property role="TrG5h" value="Charisma" />
     </node>
-    <node concept="j3kw4" id="20xz337vXYs" role="j3kxA">
-      <property role="TrG5h" value="attacks_current_round" />
-      <property role="3BngNJ" value="0" />
-      <property role="3BngNi" value="2" />
-    </node>
-    <node concept="j3kw4" id="20xz337vXYu" role="j3kxA">
-      <property role="TrG5h" value="spells_per_day_lvl_00" />
-      <property role="3BngNJ" value="0" />
-      <property role="3BngNi" value="20" />
-    </node>
-    <node concept="j3kw4" id="20xz337vXYx" role="j3kxA">
-      <property role="TrG5h" value="spells_per_day_lvl_01" />
-      <property role="3BngNJ" value="0" />
-      <property role="3BngNi" value="10" />
-    </node>
-    <node concept="j3kw4" id="20xz337vXY_" role="j3kxA">
-      <property role="TrG5h" value="spells_per_day_lvl_02" />
-      <property role="3BngNJ" value="0" />
-      <property role="3BngNi" value="5" />
-    </node>
-    <node concept="j3kw4" id="20xz337vXYE" role="j3kxA">
-      <property role="TrG5h" value="spells_per_day_lvl_03" />
-      <property role="3BngNJ" value="0" />
-      <property role="3BngNi" value="2" />
-    </node>
     <node concept="3BnCUJ" id="20xz337vXYK" role="3BnFsN">
       <property role="TrG5h" value="AutoAttack" />
       <node concept="3BnFqx" id="20xz337vXYM" role="3BnFrY">
         <property role="3BnFqy" value="1" />
-        <ref role="3BnFq$" node="20xz337vXYs" resolve="attacks_current_round" />
+        <ref role="3BnFq$" node="20xz337wh3x" resolve="attacks_current_round" />
       </node>
       <node concept="3BnFqx" id="20xz337vXYS" role="3BnFrY">
         <property role="3BnFqy" value="1" />
-        <ref role="3BnFq$" node="20xz337vXYu" resolve="spells_per_day_lvl_00" />
+        <ref role="3BnFq$" node="20xz337wh3z" resolve="spells_per_day_lvl_00" />
       </node>
     </node>
     <node concept="3BnCUJ" id="20xz337vXYO" role="3BnFsN">
       <property role="TrG5h" value="Fireball" />
       <node concept="3BnFqx" id="20xz337vXZ1" role="3BnFrY">
         <property role="3BnFqy" value="2" />
-        <ref role="3BnFq$" node="20xz337vXY_" resolve="spells_per_day_lvl_02" />
+        <ref role="3BnFq$" node="20xz337wh3A" resolve="spells_per_day_lvl_01" />
       </node>
+    </node>
+    <node concept="j3kw4" id="20xz337wh3x" role="j3kxA">
+      <property role="TrG5h" value="attacks_current_round" />
+      <property role="3BngNi" value="2" />
+    </node>
+    <node concept="j3kw4" id="20xz337wh3z" role="j3kxA">
+      <property role="TrG5h" value="spells_per_day_lvl_00" />
+      <property role="3BngNi" value="20" />
+    </node>
+    <node concept="j3kw4" id="20xz337wh3A" role="j3kxA">
+      <property role="TrG5h" value="spells_per_day_lvl_01" />
+      <property role="3BngNi" value="10" />
     </node>
   </node>
 </model>

@@ -1,3 +1,8 @@
+## do not add the generated java files from any model starting with d
+## to filter d3 and dnd5e
+
+impl/src/main/java/d*
+
 ## MPS
 
 # Should be ignored

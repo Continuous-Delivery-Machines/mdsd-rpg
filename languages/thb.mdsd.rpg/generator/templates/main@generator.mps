@@ -461,7 +461,7 @@
             <node concept="YS8fn" id="20xz337ypIk" role="3cqZAp">
               <node concept="2ShNRf" id="20xz337ypIl" role="YScLw">
                 <node concept="1pGfFk" id="20xz337ypIm" role="2ShVmc">
-                  <ref role="37wK5l" to="wyt6:~Exception.&lt;init&gt;(java.lang.String)" resolve="Exception" />
+                  <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;()" resolve="RuntimeException" />
                   <node concept="Xl_RD" id="20xz337ypIn" role="37wK5m">
                     <property role="Xl_RC" value="This is not supposed to be doable." />
                   </node>
@@ -617,8 +617,8 @@
           </node>
         </node>
       </node>
-      <node concept="3uibUv" id="20xz337za9v" role="Sfmx6">
-        <ref role="3uigEE" to="wyt6:~Throwable" resolve="Throwable" />
+      <node concept="3uibUv" id="6n5fsPsRq1s" role="Sfmx6">
+        <ref role="3uigEE" to="wyt6:~RuntimeException" resolve="RuntimeException" />
       </node>
     </node>
     <node concept="2tJIrI" id="20xz337ylWm" role="jymVt" />

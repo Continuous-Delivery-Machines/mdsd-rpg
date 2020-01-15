@@ -396,6 +396,7 @@
         <node concept="10Oyi0" id="7TVI0fHgddz" role="1tU5fm" />
       </node>
       <node concept="1WS0z7" id="7TVI0fHgexU" role="lGtFl">
+        <ref role="2rW$FS" node="7TVI0fHgniI" resolve="PlainAttributeSetterDeclaration" />
         <node concept="3JmXsc" id="7TVI0fHgexX" role="3Jn$fo">
           <node concept="3clFbS" id="7TVI0fHgexY" role="2VODD2">
             <node concept="3clFbF" id="7TVI0fHgey4" role="3cqZAp">

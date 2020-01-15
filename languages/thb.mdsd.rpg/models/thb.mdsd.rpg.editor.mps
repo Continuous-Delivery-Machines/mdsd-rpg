@@ -45,24 +45,13 @@
       <concept id="1219418625346" name="jetbrains.mps.lang.editor.structure.IStyleContainer" flags="ng" index="3F0Thp">
         <child id="1219418656006" name="styleItem" index="3F10Kt" />
       </concept>
+      <concept id="1073389882823" name="jetbrains.mps.lang.editor.structure.CellModel_RefNode" flags="sg" stub="730538219795960754" index="3F1sOY" />
       <concept id="1073390211982" name="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" flags="sg" stub="2794558372793454595" index="3F2HdR" />
       <concept id="1166049232041" name="jetbrains.mps.lang.editor.structure.AbstractComponent" flags="ng" index="1XWOmA">
         <reference id="1166049300910" name="conceptDeclaration" index="1XX52x" />
       </concept>
     </language>
   </registry>
-  <node concept="24kQdi" id="4jQ$lcQaj7Q">
-    <ref role="1XX52x" to="l145:4jQ$lcQa8mz" resolve="Attribute" />
-    <node concept="3EZMnI" id="4jQ$lcQaj7S" role="2wV5jI">
-      <node concept="3F0ifn" id="4jQ$lcQaj7Z" role="3EZMnx">
-        <property role="3F0ifm" value="att" />
-      </node>
-      <node concept="3F0A7n" id="4jQ$lcQaj85" role="3EZMnx">
-        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-      </node>
-      <node concept="l2Vlx" id="4jQ$lcQaj7V" role="2iSdaV" />
-    </node>
-  </node>
   <node concept="24kQdi" id="4jQ$lcQaj8h">
     <ref role="1XX52x" to="l145:4jQ$lcQa8mw" resolve="Unit" />
     <node concept="3EZMnI" id="4jQ$lcQaj8j" role="2wV5jI">
@@ -140,10 +129,10 @@
       </node>
       <node concept="l2Vlx" id="hPpbOnu2N9" role="2iSdaV" />
       <node concept="3F0ifn" id="20xz337v83E" role="3EZMnx">
-        <property role="3F0ifm" value="range" />
+        <property role="3F0ifm" value="max" />
       </node>
-      <node concept="3F0A7n" id="20xz337v840" role="3EZMnx">
-        <ref role="1NtTu8" to="l145:20xz337v83y" resolve="max_value" />
+      <node concept="3F1sOY" id="4HQEAF_7vAD" role="3EZMnx">
+        <ref role="1NtTu8" to="l145:4HQEAF_7vAv" resolve="max_val" />
       </node>
     </node>
   </node>
@@ -153,8 +142,8 @@
       <node concept="3F0ifn" id="20xz337vNEB" role="3EZMnx">
         <property role="3F0ifm" value="costs" />
       </node>
-      <node concept="3F0A7n" id="20xz337vNEH" role="3EZMnx">
-        <ref role="1NtTu8" to="l145:20xz337vNEi" resolve="value" />
+      <node concept="3F1sOY" id="4HQEAF_8Jov" role="3EZMnx">
+        <ref role="1NtTu8" to="l145:4HQEAF_8Jog" resolve="costCalculation" />
       </node>
       <node concept="3F0ifn" id="20xz337vNEP" role="3EZMnx">
         <property role="3F0ifm" value="of" />
@@ -194,6 +183,48 @@
         </node>
       </node>
       <node concept="l2Vlx" id="20xz337vNFt" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="4HQEAF_7Wmz">
+    <ref role="1XX52x" to="l145:4HQEAF_7Wmo" resolve="AttributeReference" />
+    <node concept="1iCGBv" id="4HQEAF_7WmG" role="2wV5jI">
+      <ref role="1NtTu8" to="l145:4HQEAF_7Wmp" resolve="attribute" />
+      <node concept="1sVBvm" id="4HQEAF_7WmI" role="1sWHZn">
+        <node concept="3F0A7n" id="4HQEAF_7WmP" role="2wV5jI">
+          <property role="1Intyy" value="true" />
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="4HQEAF_8kn6">
+    <ref role="1XX52x" to="l145:4HQEAF_8kmH" resolve="PlainAttribute" />
+    <node concept="3EZMnI" id="4HQEAF_8kn8" role="2wV5jI">
+      <node concept="3F0ifn" id="4HQEAF_8knf" role="3EZMnx">
+        <property role="3F0ifm" value="patt" />
+      </node>
+      <node concept="3F0A7n" id="4HQEAF_8knl" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="l2Vlx" id="4HQEAF_8knb" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="4HQEAF_8knx">
+    <ref role="1XX52x" to="l145:4HQEAF_8kmN" resolve="CalculatedAttribute" />
+    <node concept="3EZMnI" id="4HQEAF_8knz" role="2wV5jI">
+      <node concept="3F0ifn" id="4HQEAF_8knE" role="3EZMnx">
+        <property role="3F0ifm" value="catt" />
+      </node>
+      <node concept="3F0A7n" id="4HQEAF_8_xF" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="3F0ifn" id="4HQEAF_8_xN" role="3EZMnx">
+        <property role="3F0ifm" value=": " />
+      </node>
+      <node concept="3F1sOY" id="4HQEAF_8_xX" role="3EZMnx">
+        <ref role="1NtTu8" to="l145:4HQEAF_8kmQ" resolve="calculation" />
+      </node>
+      <node concept="l2Vlx" id="4HQEAF_8knA" role="2iSdaV" />
     </node>
   </node>
 </model>

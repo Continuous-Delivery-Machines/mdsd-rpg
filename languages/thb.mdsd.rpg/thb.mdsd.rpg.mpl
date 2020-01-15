@@ -24,6 +24,10 @@
         </facet>
       </facets>
       <external-templates />
+      <dependencies>
+        <dependency reexport="true">5e0b4086-7b52-4062-a4f0-9535e5261b27(thb.mdsd.rpg)</dependency>
+        <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
+      </dependencies>
       <languageVersions>
         <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="9" />
         <language slang="l:fd392034-7849-419d-9071-12563d152375:jetbrains.mps.baseLanguage.closures" version="0" />
